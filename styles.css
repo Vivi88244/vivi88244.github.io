@@ -133,3 +133,19 @@ body.dark-mode footer {
   text-align: left;
   color: var(--text);
 }
+
+#work h3 {
+  font-size: 1.4rem;
+  text-align: left;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  color: var(--text);
+}
+
+#work h4 {
+  font-size: 1.2rem; 
+  font-weight: 600;
+  text-align: left;
+  margin-top: 1.2rem;
+  color: var(--text);
+}
