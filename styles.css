@@ -143,7 +143,7 @@ body.dark-mode footer {
 }
 
 #work h4 {
-  font-size: 1.2rem; 
+  font-size: 1.2rem;
   font-weight: 600;
   text-align: left;
   margin-top: 1.2rem;
@@ -173,4 +173,30 @@ body.dark-mode footer {
   font-size: 0.95rem;
   color: #555;
   margin-top: -0.5rem;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #ffe4ef; /* light pink */
+  border-color: var(--pink);
+  outline: none;
+  box-shadow: 0 0 4px var(--pink);
+}
+
+input.form-control,
+textarea.form-control {
+  background-color: #ffe4ef !important;
+}
+
+input.form-control:valid,
+textarea.form-control:valid {
+  background-color: #ffe4ef !important;
+}
+
+/* alwasy pink background */
+input[type="text"],
+input[type="email"],
+textarea {
+  background-color: #ffe4ef !important;
+  border-color: var(--pink);
 }
