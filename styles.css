@@ -149,3 +149,9 @@ body.dark-mode footer {
   margin-top: 1.2rem;
   color: var(--text);
 }
+
+/* Pink accordion header instead of Bootstrap blue */
+.accordion-button:not(.collapsed) {
+  background-color: var(--pink) !important;
+  color: white !important;
+}
