@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Vivi Chen | Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
-    <!-- Bootstrap CSS (needed for container/row/accordion/btn classes) -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     />
   </head>
+
   <body>
     <header>
       <nav>
@@ -24,9 +24,17 @@
     <main>
       <!-- About -->
       <section id="about" class="section-padding">
-        <h1>Hi, I'm Vivi</h1>
-        <p>I'm a CS student at PSU and this is my last term.</p>
-        <img src="assets/profile.jpg" alt="Photo of Vivi" class="profile-img" />
+        <h1>Vivi Chen</h1>
+        <p>
+          Semiconductor equipment technician with 3.5 years of hands-on
+          experience in cleanroom diagnostics, micro-assembly, and
+          electro-mechanical troubleshooting. Strong background supporting tool
+          uptime, resolving equipment failures, documenting service report, and
+          collaborating closely with engineers and customers. Known for
+          precision, clear communication, fast issue resolution, and the ability
+          to work independently on urgent tool-down situations.
+        </p>
+        <img src="assets/profile.jpg" alt="my photo" class="profile-img" />
       </section>
 
       <!-- Experience -->
@@ -36,11 +44,59 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <h3>Experience</h3>
+              <h3>Professional Experience</h3>
+              <h4>Intel Corporation – Module Equipment Technician</h4>
               <ul>
-                <li>Module Equipment Technician at Intel</li>
-                <li>Web development coursework at PSU</li>
-                <li>Worked with HTML, CSS, JS, Bootstrap, and jQuery</li>
+                <li>
+                  Performed diagnostics, preventive maintenance, and repair of
+                  high-precision probe-card test equipment in a Class-100
+                  cleanroom.
+                </li>
+                <li>
+                  Diagnosed equipment issues using log analysis, error codes,
+                  inspection tools, and electrical measurements.
+                </li>
+                <li>
+                  Collaborated with engineers on recurring failure modes
+                  (opens/shorts, contamination, thermal damage) and supported
+                  corrective actions.
+                </li>
+                <li>
+                  Supported R&D tool performance testing, failure analysis, and
+                  structured validation steps.
+                </li>
+                <li>
+                  Served as assistant coordinator for a 12-person team—managed
+                  pass-downs, prioritized tasks, and acted as communication
+                  focal point.
+                </li>
+                <li>
+                  Achieved a fine-pitch probe replacement rate of 54 probes/hour
+                  with zero defects.
+                </li>
+              </ul>
+
+              <h4>APortland Community College - Academic Support Assistant</h4>
+              <ul>
+                <li>
+                  Coordinated tutoring schedules and served as liaison between
+                  students, tutors, and faculty.
+                </li>
+                <li>
+                  Developed scheduling tools that improved workflow efficiency
+                </li>
+              </ul>
+
+              <h4>Ping An Insurance Company of China, Ltd - Team Leader</h4>
+              <ul>
+                <li>
+                  Managed a 12-member customer service and sales team, meeting
+                  all performance metrics.
+                </li>
+                <li>
+                  Strengthened team communication, coaching, and problem-solving
+                  efficiency
+                </li>
               </ul>
             </div>
 
@@ -48,6 +104,7 @@
               <h3>Skills</h3>
 
               <div class="accordion" id="skillsAccordion">
+                <!-- Programming -->
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                     <button
@@ -65,11 +122,12 @@
                     data-bs-parent="#skillsAccordion"
                   >
                     <div class="accordion-body">
-                      Python, JavaScript, HTML, CSS
+                      Python, JavaScript, Java, C++, C, SQL
                     </div>
                   </div>
                 </div>
 
+                <!-- Toos & Technologies -->
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwo">
                     <button
@@ -78,7 +136,7 @@
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseTwo"
                     >
-                      Tools
+                      Tools &amp; Technologies
                     </button>
                   </h2>
                   <div
@@ -87,7 +145,8 @@
                     data-bs-parent="#skillsAccordion"
                   >
                     <div class="accordion-body">
-                      Git, GitHub, VS Code, Bootstrap
+                      Git, GitHub, Linux, VS Code, IntelliJ, SQL, Assembly,
+                      Bash, Test Equipment Diagnostics
                     </div>
                   </div>
                 </div>
@@ -103,21 +162,60 @@
 
         <div class="projects-grid">
           <div class="project-card">
-            <h3>8-Puzzle Solver</h3>
-            <p>A small search algorithm project from CS classes.</p>
-            <a href="#" class="project-link">GitHub</a>
+            <h3>AI-Powered Wildfire Simulation</h3>
+            <p>
+              Built a full wildfire prediction and visualization system using
+              AI-driven weather-simulation models. Developed data pipelines
+              (preprocessing → FCN training → inference → HDF5 workflows).
+              <br /><br />
+              This was a 9-member interdisciplinary capstone project focused on
+              wildfire prediction and visualization. I was responsible for the
+              AI subsystem, including dataset preparation, preprocessing
+              workflows, FCN model training, inference steps, and supporting
+              visualization outputs.
+              <br /><br />
+              The GitHub link points to the full capstone organization, which
+              contains all project components (AI, simulation, HPC data intake,
+              visualization). Because the team used shared repositories and
+              merged branches, individual commit histories do not directly
+              reflect personal contributions.
+            </p>
+            <a
+              href="https://github.com/PSU-CS-Wildfire-Capstone-Sp-S-25"
+              class="project-link"
+              >GitHub</a
+            >
           </div>
 
           <div class="project-card">
-            <h3>Wildfire Visualization</h3>
-            <p>Generated heatmaps and visualizations from climate data.</p>
-            <a href="#" class="project-link">GitHub</a>
+            <h3>Airline Management App</h3>
+            <p>
+              Developed an airline-management Android application using Java.
+              Implemented XML data handling, RESTful communication, and
+              integration tests.
+            </p>
+            <a
+              href="https://github.com/Vivi88244/JoyOfCodingWinter2025.git"
+              class="project-link"
+              >GitHub</a
+            >
           </div>
 
           <div class="project-card">
-            <h3>Simple Web App</h3>
-            <p>A form-based project built with HTML, CSS, and JS.</p>
-            <a href="#" class="project-link">GitHub</a>
+            <h3>Personal Portfolio Website</h3>
+            <p>
+              A responsive personal website built with HTML, CSS, JavaScript,
+              and Bootstrap. Includes a contact form, skills accordion, CSS Grid
+              layout, and theme toggle.
+            </p>
+            <a href="https://vivi88244.github.io" class="project-link"
+              >Website</a
+            >
+            <a
+              href="https://github.com/vivi88244/vivi88244.github.io"
+              class="project-link"
+              >GitHub</a
+            >
           </div>
         </div>
       </section>
